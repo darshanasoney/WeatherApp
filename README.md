@@ -1,5 +1,5 @@
 ## WeatherApp
-Built to WeatherApp, simple, and fast iOS weather application with Swift. This app provides real-time weather updates and essential weather details for locations around the world.
+Built a WeatherApp, simple, and fast iOS weather application with Swift. This app provides real-time weather updates and essential weather details for locations around the world.
 
 ## 📱 Features
     •    Current Weather: See real-time weather information for your current location or search for other cities.
