@@ -15,7 +15,7 @@ class CityListViewController: UIViewController {
         didSet{
             guard let label = self.labelNoRecordsFound else { return }
             label.font = .appFont(size: 18, weight: .medium)
-            label.textColor = UIColor.white
+            label.textColor = UIColor.lightGray
         }
     }
     

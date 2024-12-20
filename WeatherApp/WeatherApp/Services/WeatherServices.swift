@@ -23,7 +23,7 @@ enum APIError: Error, Equatable {
 
 class WeatherServices {
     
-    static let instance = WeatherServices()
+    public static let instance = WeatherServices()
     
     private init() { }
     
@@ -47,6 +47,12 @@ class WeatherServices {
                 completionHandler(.failure(.noData))
                 return
             }
+            
+            guard let code = (response as? HTTPURLResponse)?.statusCode, code == 200 else {
+                completionHandler(.failure(.noData))
+                return
+            }
+            
             do {
                 let weatherModel = try JSONDecoder().decode(WeatherModel.self, from: data)
                 

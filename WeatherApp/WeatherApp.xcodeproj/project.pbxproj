@@ -47,6 +47,30 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F734262B2D157524008E621C /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Helper/Constants.swift,
+				Model/City.swift,
+				Model/Place.swift,
+				Model/WeatherList.swift,
+				Model/WeatherModel.swift,
+				Services/WeatherServices.swift,
+			);
+			target = F78D77BF2D132DA2006DB44F /* WeatherAppTests */;
+		};
+		F734262C2D157524008E621C /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Helper/Constants.swift,
+				Model/City.swift,
+				Model/Place.swift,
+				Model/WeatherList.swift,
+				Model/WeatherModel.swift,
+				Services/WeatherServices.swift,
+			);
+			target = F78D77C92D132DA2006DB44F /* WeatherAppUITests */;
+		};
 		F78D77D22D132DA2006DB44F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -57,7 +81,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F78D77AC2D132DA1006DB44F /* WeatherApp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F78D77D22D132DA2006DB44F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = WeatherApp; sourceTree = "<group>"; };
+		F78D77AC2D132DA1006DB44F /* WeatherApp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F78D77D22D132DA2006DB44F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, F734262B2D157524008E621C /* PBXFileSystemSynchronizedBuildFileExceptionSet */, F734262C2D157524008E621C /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = WeatherApp; sourceTree = "<group>"; };
 		F78D77C32D132DA2006DB44F /* WeatherAppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WeatherAppTests; sourceTree = "<group>"; };
 		F78D77CD2D132DA2006DB44F /* WeatherAppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WeatherAppUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
