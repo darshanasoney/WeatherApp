@@ -32,7 +32,7 @@ Built to WeatherApp, simple, and fast iOS weather application with Swift. This a
     •   To use the weather data, used https://openweathermap.org/ to get weather details and need to set up an API key.
     
 ## Screen-recording for understanding
-    • [View here](https://drive.google.com/file/d/1-z2S8pnPKnOqBBEoFnjntRs2F9bbdeeJ/view?usp=drive_link) 
+    • https://drive.google.com/file/d/1-z2S8pnPKnOqBBEoFnjntRs2F9bbdeeJ/view?usp=drive_link
     
 ## 📞 Contact for questions or feedback
     •    Email: darshana111soney@gmail.com
